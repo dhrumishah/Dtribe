@@ -21,7 +21,7 @@ const LandingPage = () => {
 
         <button class="btn-4 button1 lg:mt-0" onClick={toggleComponent}>
           <span className="span1">
-            <div className="-rotate-45">LAUNCH</div>
+            <div className="-rotate-45 hover:text-white">LAUNCH</div>
           </span>
         </button>
       </div>
