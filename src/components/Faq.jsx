@@ -2,7 +2,7 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className="bg-[#121212] h-fit w-full text-white md:pt-36 md:pb-20 lg:pt-2 lg:px-24 -mt-1">
+    <div className="bg-[#121212] h-fit w-full text-white md:pt-36 md:pb-20 lg:pt-2 lg:px-24">
       <div className="md:pt-4 mx-4 md:mx-4 lg:mx-8 pb-20">
         <h1 className="font-bold text-5xl text-white">FAQs</h1>
         <ul className="text-[#9BA1A7] list-none list-inside mt-4 text-xl">

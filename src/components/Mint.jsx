@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Nabvar from "./Navbar";
 
 const Mint = () => {
   return (
-    <div className='text-white'>Mint</div>
-  )
-}
+    <div>
+      <Nabvar />
+    </div>
+  );
+};
 
-export default Mint
+export default Mint;

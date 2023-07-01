@@ -31,7 +31,7 @@ const Layout = () => {
   }, []);
   return (
     <div className="flex h-screen flex-col">
-      {count < 100.0 && window.location.pathname === "/home" ? (
+      {count < 100.0 && window.location.pathname === "/" ? (
         <div className="w-full flex-col gap-4 h-screen text-white items-center flex justify-center bg-black">
           <h4 className="text-4xl text-[#9BA1A7] font-bold">
             {count.toPrecision(4)} %
@@ -40,7 +40,7 @@ const Layout = () => {
       ) : (
         <div>
           <Nabvar />
-          {window.location.pathname === "/home" && <HomePage />}
+          {window.location.pathname === "/" && <HomePage />}
           {window.location.pathname === "/security" && <Security />}
           {window.location.pathname === "/faq" && <Faq />}
           <Footer />

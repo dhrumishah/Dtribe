@@ -1,5 +1,6 @@
-*{
+* {
   font-weight: 700;
+  background-color: #121212;
 }
 *,
 *:after,
@@ -9,8 +10,8 @@
   box-sizing: border-box;
 }
 
-.background_gray{
-    background-color: #121212;
+.background_gray {
+  background-color: #121212;
 }
 
 .button1 {

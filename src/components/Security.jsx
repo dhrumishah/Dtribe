@@ -2,7 +2,7 @@ import React from "react";
 
 const Security = () => {
   return (
-    <div className="bg-[#121212] h-fit w-full pt-2 lg:pt-8 md:pt-36 lg:mt-0 px-4 lg:px-24 lg:pb-12 text-white pb-20 md:pb-24 -mt-1">
+    <div className="bg-[#121212] h-fit w-full pt-2 lg:pt-8 md:pt-36 lg:mt-0 px-4 lg:px-24 lg:pb-12 text-white pb-20 md:pb-24">
       <h1 className="text-5xl text-white font-bold font-Rowdies">SECURITY</h1>
       <p className="text-2xl mt-8 text-white leading-9 ">
         Scammers may approach you in various ways to steal your valuable digital
