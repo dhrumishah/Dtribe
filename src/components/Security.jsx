@@ -36,7 +36,7 @@ const Security = () => {
         </li>
       </ul>
       <p className="text-xl pt-4 text-white mt-4">
-        For more information on security, you can explore websites like
+        For more information on security, you can explore websites like{" "}
         <a
           href="https://www.boringsecurity.com"
           className="font-bold text-[#2461FF] underline"

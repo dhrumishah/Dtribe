@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="w-full h-fit md:-mt-[1px] text-white bg-[#121212] px-12 pb-16 pt-12 md:pt-0 lg:pt-24 lg:px-24">
       <div className="flex flex-col lg:flex-row items-center gap-8 justify-between">
         <div className="flex flex-row items-center gap-8">
-          <a href="#">
+          <a href="https://twitter.com/DtribeNFT?t=yV2GKQL9b0wMWGHuHcJVqA&s=08">
             <img src={Twitter} />
           </a>
           <a href="#">
