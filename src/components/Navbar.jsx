@@ -57,7 +57,7 @@ const Nabvar = () => {
                 ))}
                 <button
                   className="text-black bg-[#9BA1A7] py-3 px-8 font-bold hover:bg-white"
-                  onClick={goToMintPage}
+                  // onClick={goToMintPage}
                 >
                   MINT
                 </button>
@@ -104,7 +104,10 @@ const Nabvar = () => {
                     </span>
                   </a>
                 ))}
-                <button className="text-black bg-white mx-auto tracking-widest text-3xl px-2 py-4 mb-8 font-bold">
+                <button
+                  className="text-black bg-white mx-auto tracking-widest text-3xl px-2 py-4 mb-8 font-bold"
+                  // onClick={goToMintPage}
+                >
                   MINT
                 </button>
               </ul>
