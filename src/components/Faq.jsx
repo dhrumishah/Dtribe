@@ -7,7 +7,7 @@ const Faq = () => {
         <h1 className="font-bold text-5xl text-white">FAQs</h1>
         <ul className="text-[#9BA1A7] list-none list-inside mt-4 text-xl">
           <li className="mt-9">Q: What is the mint price?</li>
-          <li className="mt-2 text-white">A: 0.017 ether.</li>
+          <li className="mt-2 text-white">A: 0.017 eth.</li>
           <li className="mt-8">
             Q: Is there a roadmap or utility for this project?
           </li>
