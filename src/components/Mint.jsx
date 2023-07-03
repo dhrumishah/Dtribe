@@ -20,7 +20,7 @@ const Mint = () => {
           </div>
         </div>
       </nav>
-      <div className="flex flex-col gap-6 items-center justify-center h-full w-full">
+      <div className="flex flex-col gap-6 items-center justify-center w-full h-screen">
         <button className="text-black bg-[#9BA1A7] px-4 py-2 text-3xl hover:bg-white">
           MINT
         </button>
