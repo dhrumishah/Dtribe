@@ -17,6 +17,15 @@ const Mint = () => {
         </div>
       </div>
       <div className="flex flex-col gap-6 w-full items-center absolute top-[50%]">
+        <div className="flex flex-row gap-4 items-center">
+          <button className="text-black bg-[#9BA1A7] px-4 py-1 text-3xl hover:bg-[#888e94] w-fit rounded-lg">
+            +
+          </button>
+          <input className="border-1 border-[#9BA1A7] bg-white rounded-md text-black p-2" />
+          <button className="text-black bg-[#9BA1A7] hover:bg-[#888e94] px-4 py-1 text-3xl w-fit rounded-lg">
+            -
+          </button>
+        </div>
         <div className="flex justify-center">
           <button className="text-black bg-[#9BA1A7] px-12 py-3 text-3xl hover:bg-white w-fit rounded-lg">
             MINT
@@ -24,8 +33,8 @@ const Mint = () => {
         </div>
         <div className="flex justify-center">
           <p className="text-2xl text-[#cbcdcf] font-semibold">
-            Left supply:{" "}
-            <span className="text-2xl font-normal text-white">29572</span>
+            Supply left:{" "}
+            <span className="text-2xl font-normal text-white">200/10000</span>
           </p>
         </div>
       </div>

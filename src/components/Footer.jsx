@@ -14,11 +14,11 @@ const Footer = () => {
           <a href="#">
             <img src={Discord} />
           </a>
-          <a href="#">
-            <img src={Etherscan} />
+          <a href="https://etherscan.io/address/0x6bb33c67ba6314d1cf9a7732e0fc8ca4b1a0dc5a">
+            <img src={Etherscan} alt="" />
           </a>
-          <a href="#">
-            <img src={Vector} />
+          <a href="https://opensea.io/collection/dtribenft">
+            <img src={Vector} alt="" />
           </a>
         </div>
         <div className="items-center text-center justify-center">
